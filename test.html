@@ -1,6 +1,10 @@
 <html>
     <head>
         <title>Test Page</title>
+
+    <!--Bootstrap CSS-->
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+
     </head>
     <body>
         <!--Testing Various Input types of form-->
@@ -29,5 +33,100 @@
             Image : <input type="image" src="Snehal Chodankar.jpg" width="100px" height="100px"><br><br>
             Reset : <input type="reset"><br><br>            
         </form>
+
+        <hr><hr>
+        <!--Bootstrap tables-->
+        <div class="row">
+            <div class="col-6">
+                <label>Table 1</label>
+                <table class="table">
+                    <tr>    <th>F Name</th><th>L Name</th><th>Location</th>  </tr>
+                    <tr>    <td>Snehal</td><td>Chodankar</td><td>Colvale</td>   </tr>
+                    <tr>    <td>Pooja</td><td>Raghmode</td><td>Kundai</td>  </tr>
+                </table>
+            </div>
+            <div class="col-6">
+                <label>Table 2</label>
+                <table class="table table-striped">
+                    <tr>    <th>F Name</th><th>L Name</th><th>Location</th>  </tr>
+                    <tr>    <td>Snehal</td><td>Chodankar</td><td>Colvale</td>   </tr>
+                    <tr>    <td>Pooja</td><td>Raghmode</td><td>Kundai</td>  </tr>
+                </table>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-6">
+                <label>Table 3</label>
+                <table class="table table-bordered">
+                    <tr>    <th>F Name</th><th>L Name</th><th>Location</th>  </tr>
+                    <tr>    <td>Snehal</td><td>Chodankar</td><td>Colvale</td>   </tr>
+                    <tr>    <td>Pooja</td><td>Raghmode</td><td>Kundai</td>  </tr>
+                </table>
+            </div>
+            <div class="col-6">
+                <label>Table 4</label>
+                <table class="table table-hover">
+                    <tr>    <th>F Name</th><th>L Name</th><th>Location</th>  </tr>
+                    <tr>    <td>Snehal</td><td>Chodankar</td><td>Colvale</td>   </tr>
+                    <tr>    <td>Pooja</td><td>Raghmode</td><td>Kundai</td>  </tr>
+                </table>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-6">
+                <label>Table 5</label>
+                <table class="table table-sm">
+                    <tr>    <th>F Name</th><th>L Name</th><th>Location</th>  </tr>
+                    <tr>    <td>Snehal</td><td>Chodankar</td><td>Colvale</td>   </tr>
+                    <tr>    <td>Pooja</td><td>Raghmode</td><td>Kundai</td>  </tr>
+                </table>
+            </div>
+
+            <div class="col-6">
+                <label>Table 6</label>
+                <table class="table table-responsive">
+                    <tr>    <th>F Name</th><th>L Name</th><th>Location</th>  </tr>
+                    <tr>    <td>Snehal</td><td>Chodankar</td><td>Colvale</td>   </tr>
+                    <tr>    <td>Pooja</td><td>Raghmode</td><td>Kundai</td>  </tr>
+                </table>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-6">
+                <label>Table 7</label>
+                <table class="table">
+                    <tr class="bg-success">
+                        <td>Success</td>
+                        <td>Success</td>
+                    </tr>
+                    <tr class="bg-danger">
+                        <td>danger</td>
+                        <td>danger</td>
+                    </tr>
+                    <tr class="bg-active">
+                        <td>active</td>
+                        <td>active</td>
+                    </tr>
+                    <tr class="bg-info">
+                        <td>info</td>
+                        <td>info</td>
+                    </tr>
+                    <tr class="bg-warning">
+                        <td>warning</td>
+                        <td>warning</td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+        
+
+    <!--Bootstrap javascript dependencies-->
+    <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
+    <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+
     </body>
 </html>
